@@ -9,12 +9,34 @@
 /* Begin PBXBuildFile section */
 		211227E81C1390780042D93A /* Camo.h in Headers */ = {isa = PBXBuildFile; fileRef = 211227E71C1390780042D93A /* Camo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211227EF1C1390780042D93A /* Camo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211227E41C1390780042D93A /* Camo.framework */; };
-		211227F41C1390780042D93A /* CamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211227F31C1390780042D93A /* CamoTests.swift */; };
 		211228041C1390D20042D93A /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211228001C1390D20042D93A /* CommonCrypto.framework */; };
 		211228061C1390D20042D93A /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211228021C1390D20042D93A /* Crypto.framework */; };
 		211228091C1390E80042D93A /* CommonCrypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 211228011C1390D20042D93A /* CommonCrypto.framework.dSYM */; };
 		2112280A1C1390E80042D93A /* Crypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 211228031C1390D20042D93A /* Crypto.framework.dSYM */; };
 		2112280D1C13912E0042D93A /* Camo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112280C1C13912E0042D93A /* Camo.swift */; };
+		2112282A1C13946F0042D93A /* Camo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211228201C13946F0042D93A /* Camo.framework */; };
+		211228461C1394C70042D93A /* Camo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2112283C1C1394C70042D93A /* Camo.framework */; };
+		211228531C1394EA0042D93A /* Camo.h in Headers */ = {isa = PBXBuildFile; fileRef = 211227E71C1390780042D93A /* Camo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211228541C1394EA0042D93A /* Camo.h in Headers */ = {isa = PBXBuildFile; fileRef = 211227E71C1390780042D93A /* Camo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211228551C1394EB0042D93A /* Camo.h in Headers */ = {isa = PBXBuildFile; fileRef = 211227E71C1390780042D93A /* Camo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211228561C1394F20042D93A /* Camo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112280C1C13912E0042D93A /* Camo.swift */; };
+		211228571C1394F30042D93A /* Camo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112280C1C13912E0042D93A /* Camo.swift */; };
+		211228581C1394F30042D93A /* Camo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112280C1C13912E0042D93A /* Camo.swift */; };
+		2112285C1C1395050042D93A /* CamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112285A1C1394FE0042D93A /* CamoTests.swift */; };
+		2112285D1C1395060042D93A /* CamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112285A1C1394FE0042D93A /* CamoTests.swift */; };
+		2112285E1C1395060042D93A /* CamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112285A1C1394FE0042D93A /* CamoTests.swift */; };
+		211228641C1395300042D93A /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211228601C1395300042D93A /* CommonCrypto.framework */; };
+		211228661C1395300042D93A /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211228621C1395300042D93A /* Crypto.framework */; };
+		211228821C13955B0042D93A /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211228781C13954D0042D93A /* CommonCrypto.framework */; };
+		211228831C1395640042D93A /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2112287A1C13954D0042D93A /* Crypto.framework */; };
+		211228841C13956F0042D93A /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2112286A1C1395430042D93A /* CommonCrypto.framework */; };
+		211228851C13956F0042D93A /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2112286C1C1395430042D93A /* Crypto.framework */; };
+		211228871C13959E0042D93A /* CommonCrypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 211228791C13954D0042D93A /* CommonCrypto.framework.dSYM */; };
+		211228881C13959E0042D93A /* Crypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2112287B1C13954D0042D93A /* Crypto.framework.dSYM */; };
+		2112288A1C1395AF0042D93A /* CommonCrypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2112286B1C1395430042D93A /* CommonCrypto.framework.dSYM */; };
+		2112288B1C1395B10042D93A /* Crypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2112286D1C1395430042D93A /* Crypto.framework.dSYM */; };
+		2112288D1C1395C00042D93A /* CommonCrypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 211228611C1395300042D93A /* CommonCrypto.framework.dSYM */; };
+		2112288E1C1395C10042D93A /* Crypto.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 211228631C1395300042D93A /* Crypto.framework.dSYM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +46,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 211227E31C1390780042D93A;
 			remoteInfo = Camo;
+		};
+		2112282B1C13946F0042D93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211227DB1C1390780042D93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2112281F1C13946F0042D93A;
+			remoteInfo = "Camo-tvOS";
+		};
+		211228471C1394C70042D93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211227DB1C1390780042D93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2112283B1C1394C70042D93A;
+			remoteInfo = "Camo-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,20 +76,73 @@
 			name = "Copy dSYM Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		211228861C1395920042D93A /* Copy dSYM Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				211228871C13959E0042D93A /* CommonCrypto.framework.dSYM in Copy dSYM Files */,
+				211228881C13959E0042D93A /* Crypto.framework.dSYM in Copy dSYM Files */,
+			);
+			name = "Copy dSYM Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228891C1395A70042D93A /* Copy dSYM Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				2112288A1C1395AF0042D93A /* CommonCrypto.framework.dSYM in Copy dSYM Files */,
+				2112288B1C1395B10042D93A /* Crypto.framework.dSYM in Copy dSYM Files */,
+			);
+			name = "Copy dSYM Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2112288C1C1395BA0042D93A /* Copy dSYM Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				2112288D1C1395C00042D93A /* CommonCrypto.framework.dSYM in Copy dSYM Files */,
+				2112288E1C1395C10042D93A /* Crypto.framework.dSYM in Copy dSYM Files */,
+			);
+			name = "Copy dSYM Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		211227E41C1390780042D93A /* Camo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211227E71C1390780042D93A /* Camo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camo.h; sourceTree = "<group>"; };
 		211227E91C1390780042D93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		211227EE1C1390780042D93A /* CamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		211227F31C1390780042D93A /* CamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamoTests.swift; sourceTree = "<group>"; };
-		211227F51C1390780042D93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211227EE1C1390780042D93A /* CamoTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CamoTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		211228001C1390D20042D93A /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
 		211228011C1390D20042D93A /* CommonCrypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CommonCrypto.framework.dSYM; path = Carthage/Build/iOS/CommonCrypto.framework.dSYM; sourceTree = "<group>"; };
 		211228021C1390D20042D93A /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crypto.framework; path = Carthage/Build/iOS/Crypto.framework; sourceTree = "<group>"; };
 		211228031C1390D20042D93A /* Crypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Crypto.framework.dSYM; path = Carthage/Build/iOS/Crypto.framework.dSYM; sourceTree = "<group>"; };
 		2112280C1C13912E0042D93A /* Camo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camo.swift; sourceTree = "<group>"; };
+		211228131C13944A0042D93A /* Camo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211228201C13946F0042D93A /* Camo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211228291C13946F0042D93A /* CamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2112283C1C1394C70042D93A /* Camo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211228451C1394C70042D93A /* Camo-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camo-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2112285A1C1394FE0042D93A /* CamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamoTests.swift; sourceTree = "<group>"; };
+		2112285B1C1394FE0042D93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211228601C1395300042D93A /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
+		211228611C1395300042D93A /* CommonCrypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = CommonCrypto.framework.dSYM; sourceTree = "<group>"; };
+		211228621C1395300042D93A /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = "<group>"; };
+		211228631C1395300042D93A /* Crypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Crypto.framework.dSYM; sourceTree = "<group>"; };
+		2112286A1C1395430042D93A /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
+		2112286B1C1395430042D93A /* CommonCrypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = CommonCrypto.framework.dSYM; sourceTree = "<group>"; };
+		2112286C1C1395430042D93A /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = "<group>"; };
+		2112286D1C1395430042D93A /* Crypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Crypto.framework.dSYM; sourceTree = "<group>"; };
+		211228781C13954D0042D93A /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
+		211228791C13954D0042D93A /* CommonCrypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = CommonCrypto.framework.dSYM; sourceTree = "<group>"; };
+		2112287A1C13954D0042D93A /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = "<group>"; };
+		2112287B1C13954D0042D93A /* Crypto.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Crypto.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +163,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2112280F1C13944A0042D93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228821C13955B0042D93A /* CommonCrypto.framework in Frameworks */,
+				211228831C1395640042D93A /* Crypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2112281C1C13946F0042D93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228841C13956F0042D93A /* CommonCrypto.framework in Frameworks */,
+				211228851C13956F0042D93A /* Crypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228261C13946F0042D93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2112282A1C13946F0042D93A /* Camo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228381C1394C70042D93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228641C1395300042D93A /* CommonCrypto.framework in Frameworks */,
+				211228661C1395300042D93A /* Crypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228421C1394C70042D93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228461C1394C70042D93A /* Camo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +213,6 @@
 			isa = PBXGroup;
 			children = (
 				211227E61C1390780042D93A /* Camo */,
-				211227F21C1390780042D93A /* CamoTests */,
 				211227FE1C13909F0042D93A /* Frameworks */,
 				211227E51C1390780042D93A /* Products */,
 			);
@@ -91,7 +222,12 @@
 			isa = PBXGroup;
 			children = (
 				211227E41C1390780042D93A /* Camo.framework */,
-				211227EE1C1390780042D93A /* CamoTests.xctest */,
+				211227EE1C1390780042D93A /* CamoTests-iOS.xctest */,
+				211228131C13944A0042D93A /* Camo.framework */,
+				211228201C13946F0042D93A /* Camo.framework */,
+				211228291C13946F0042D93A /* CamoTests.xctest */,
+				2112283C1C1394C70042D93A /* Camo.framework */,
+				211228451C1394C70042D93A /* Camo-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +238,18 @@
 				211227E71C1390780042D93A /* Camo.h */,
 				2112280C1C13912E0042D93A /* Camo.swift */,
 				211227E91C1390780042D93A /* Info.plist */,
+				211228591C1394FE0042D93A /* Tests */,
 			);
 			path = Camo;
-			sourceTree = "<group>";
-		};
-		211227F21C1390780042D93A /* CamoTests */ = {
-			isa = PBXGroup;
-			children = (
-				211227F31C1390780042D93A /* CamoTests.swift */,
-				211227F51C1390780042D93A /* Info.plist */,
-			);
-			path = CamoTests;
 			sourceTree = "<group>";
 		};
 		211227FE1C13909F0042D93A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				211227FF1C1390A40042D93A /* iOS */,
+				211228751C13954D0042D93A /* watchOS */,
+				211228681C1395430042D93A /* tvOS */,
+				2112285F1C1395300042D93A /* OSX */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +265,51 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		211228591C1394FE0042D93A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2112285A1C1394FE0042D93A /* CamoTests.swift */,
+				2112285B1C1394FE0042D93A /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		2112285F1C1395300042D93A /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				211228601C1395300042D93A /* CommonCrypto.framework */,
+				211228611C1395300042D93A /* CommonCrypto.framework.dSYM */,
+				211228621C1395300042D93A /* Crypto.framework */,
+				211228631C1395300042D93A /* Crypto.framework.dSYM */,
+			);
+			name = OSX;
+			path = Carthage/Build/Mac;
+			sourceTree = "<group>";
+		};
+		211228681C1395430042D93A /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				2112286A1C1395430042D93A /* CommonCrypto.framework */,
+				2112286B1C1395430042D93A /* CommonCrypto.framework.dSYM */,
+				2112286C1C1395430042D93A /* Crypto.framework */,
+				2112286D1C1395430042D93A /* Crypto.framework.dSYM */,
+			);
+			name = tvOS;
+			path = Carthage/Build/tvOS;
+			sourceTree = "<group>";
+		};
+		211228751C13954D0042D93A /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				211228781C13954D0042D93A /* CommonCrypto.framework */,
+				211228791C13954D0042D93A /* CommonCrypto.framework.dSYM */,
+				2112287A1C13954D0042D93A /* Crypto.framework */,
+				2112287B1C13954D0042D93A /* Crypto.framework.dSYM */,
+			);
+			name = watchOS;
+			path = Carthage/Build/watchOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -145,12 +321,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		211228101C13944A0042D93A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228531C1394EA0042D93A /* Camo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2112281D1C13946F0042D93A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228541C1394EA0042D93A /* Camo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228391C1394C70042D93A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228551C1394EB0042D93A /* Camo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		211227E31C1390780042D93A /* Camo */ = {
+		211227E31C1390780042D93A /* Camo-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 211227F81C1390780042D93A /* Build configuration list for PBXNativeTarget "Camo" */;
+			buildConfigurationList = 211227F81C1390780042D93A /* Build configuration list for PBXNativeTarget "Camo-iOS" */;
 			buildPhases = (
 				211227DF1C1390780042D93A /* Sources */,
 				211227E01C1390780042D93A /* Frameworks */,
@@ -162,14 +362,14 @@
 			);
 			dependencies = (
 			);
-			name = Camo;
+			name = "Camo-iOS";
 			productName = Camo;
 			productReference = 211227E41C1390780042D93A /* Camo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		211227ED1C1390780042D93A /* CamoTests */ = {
+		211227ED1C1390780042D93A /* CamoTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 211227FB1C1390780042D93A /* Build configuration list for PBXNativeTarget "CamoTests" */;
+			buildConfigurationList = 211227FB1C1390780042D93A /* Build configuration list for PBXNativeTarget "CamoTests-iOS" */;
 			buildPhases = (
 				211227EA1C1390780042D93A /* Sources */,
 				211227EB1C1390780042D93A /* Frameworks */,
@@ -181,9 +381,104 @@
 			dependencies = (
 				211227F11C1390780042D93A /* PBXTargetDependency */,
 			);
-			name = CamoTests;
+			name = "CamoTests-iOS";
 			productName = CamoTests;
-			productReference = 211227EE1C1390780042D93A /* CamoTests.xctest */;
+			productReference = 211227EE1C1390780042D93A /* CamoTests-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		211228121C13944A0042D93A /* Camo-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211228181C13944B0042D93A /* Build configuration list for PBXNativeTarget "Camo-watchOS" */;
+			buildPhases = (
+				2112280E1C13944A0042D93A /* Sources */,
+				2112280F1C13944A0042D93A /* Frameworks */,
+				211228101C13944A0042D93A /* Headers */,
+				211228111C13944A0042D93A /* Resources */,
+				211228861C1395920042D93A /* Copy dSYM Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camo-watchOS";
+			productName = "Camo-watchOS";
+			productReference = 211228131C13944A0042D93A /* Camo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2112281F1C13946F0042D93A /* Camo-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211228311C13946F0042D93A /* Build configuration list for PBXNativeTarget "Camo-tvOS" */;
+			buildPhases = (
+				2112281B1C13946F0042D93A /* Sources */,
+				2112281C1C13946F0042D93A /* Frameworks */,
+				2112281D1C13946F0042D93A /* Headers */,
+				2112281E1C13946F0042D93A /* Resources */,
+				211228891C1395A70042D93A /* Copy dSYM Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camo-tvOS";
+			productName = "Camo-tvOS";
+			productReference = 211228201C13946F0042D93A /* Camo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		211228281C13946F0042D93A /* CamoTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211228341C13946F0042D93A /* Build configuration list for PBXNativeTarget "CamoTests-tvOS" */;
+			buildPhases = (
+				211228251C13946F0042D93A /* Sources */,
+				211228261C13946F0042D93A /* Frameworks */,
+				211228271C13946F0042D93A /* Resources */,
+				2112288F1C1395EB0042D93A /* Embed Carthage Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2112282C1C13946F0042D93A /* PBXTargetDependency */,
+			);
+			name = "CamoTests-tvOS";
+			productName = "Camo-tvOSTests";
+			productReference = 211228291C13946F0042D93A /* CamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2112283B1C1394C70042D93A /* Camo-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2112284D1C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSX" */;
+			buildPhases = (
+				211228371C1394C70042D93A /* Sources */,
+				211228381C1394C70042D93A /* Frameworks */,
+				211228391C1394C70042D93A /* Headers */,
+				2112283A1C1394C70042D93A /* Resources */,
+				2112288C1C1395BA0042D93A /* Copy dSYM Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camo-OSX";
+			productName = "Camo-OSX";
+			productReference = 2112283C1C1394C70042D93A /* Camo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		211228441C1394C70042D93A /* Camo-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211228501C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSXTests" */;
+			buildPhases = (
+				211228411C1394C70042D93A /* Sources */,
+				211228421C1394C70042D93A /* Frameworks */,
+				211228431C1394C70042D93A /* Resources */,
+				211228901C1396050042D93A /* Embed Carthage Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211228481C1394C70042D93A /* PBXTargetDependency */,
+			);
+			name = "Camo-OSXTests";
+			productName = "Camo-OSXTests";
+			productReference = 211228451C1394C70042D93A /* Camo-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,6 +497,21 @@
 					211227ED1C1390780042D93A = {
 						CreatedOnToolsVersion = 7.1;
 					};
+					211228121C13944A0042D93A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2112281F1C13946F0042D93A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					211228281C13946F0042D93A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2112283B1C1394C70042D93A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					211228441C1394C70042D93A = {
+						CreatedOnToolsVersion = 7.1;
+					};
 				};
 			};
 			buildConfigurationList = 211227DE1C1390780042D93A /* Build configuration list for PBXProject "Camo" */;
@@ -216,8 +526,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				211227E31C1390780042D93A /* Camo */,
-				211227ED1C1390780042D93A /* CamoTests */,
+				211227E31C1390780042D93A /* Camo-iOS */,
+				211227ED1C1390780042D93A /* CamoTests-iOS */,
+				211228121C13944A0042D93A /* Camo-watchOS */,
+				2112281F1C13946F0042D93A /* Camo-tvOS */,
+				211228281C13946F0042D93A /* CamoTests-tvOS */,
+				2112283B1C1394C70042D93A /* Camo-OSX */,
+				211228441C1394C70042D93A /* Camo-OSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +546,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		211227EC1C1390780042D93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228111C13944A0042D93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2112281E1C13946F0042D93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228271C13946F0042D93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2112283A1C1394C70042D93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228431C1394C70042D93A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,6 +606,38 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		2112288F1C1395EB0042D93A /* Embed Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Crypto.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/CommonCrypto.framework",
+			);
+			name = "Embed Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		211228901C1396050042D93A /* Embed Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/Crypto.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/CommonCrypto.framework",
+			);
+			name = "Embed Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -271,7 +653,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211227F41C1390780042D93A /* CamoTests.swift in Sources */,
+				2112285C1C1395050042D93A /* CamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2112280E1C13944A0042D93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228561C1394F20042D93A /* Camo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2112281B1C13946F0042D93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228571C1394F30042D93A /* Camo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228251C13946F0042D93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2112285D1C1395060042D93A /* CamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228371C1394C70042D93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211228581C1394F30042D93A /* Camo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211228411C1394C70042D93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2112285E1C1395060042D93A /* CamoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +702,18 @@
 /* Begin PBXTargetDependency section */
 		211227F11C1390780042D93A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 211227E31C1390780042D93A /* Camo */;
+			target = 211227E31C1390780042D93A /* Camo-iOS */;
 			targetProxy = 211227F01C1390780042D93A /* PBXContainerItemProxy */;
+		};
+		2112282C1C13946F0042D93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2112281F1C13946F0042D93A /* Camo-tvOS */;
+			targetProxy = 2112282B1C13946F0042D93A /* PBXContainerItemProxy */;
+		};
+		211228481C1394C70042D93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2112283B1C1394C70042D93A /* Camo-OSX */;
+			targetProxy = 211228471C1394C70042D93A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -290,6 +722,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -323,7 +756,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -338,6 +772,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -365,7 +800,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,8 +826,8 @@
 				INFOPLIST_FILE = Camo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.Camo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -412,8 +848,8 @@
 				INFOPLIST_FILE = Camo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.Camo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -421,9 +857,9 @@
 		211227FC1C1390780042D93A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = CamoTests/Info.plist;
+				INFOPLIST_FILE = Camo/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.CamoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.camotests-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -431,10 +867,208 @@
 		211227FD1C1390780042D93A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = CamoTests/Info.plist;
+				INFOPLIST_FILE = Camo/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.CamoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.camotests-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		211228191C13944B0042D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Camo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2112281A1C13944B0042D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Camo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		211228321C13946F0042D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Camo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		211228331C13946F0042D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Camo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		211228351C13946F0042D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Camo/Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.camotests-tvos";
+				PRODUCT_NAME = CamoTests;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		211228361C13946F0042D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Camo/Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.camotests-tvos";
+				PRODUCT_NAME = CamoTests;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		2112284E1C1394C70042D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Camo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2112284F1C1394C70042D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Camo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.camo;
+				PRODUCT_NAME = Camo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		211228511C1394C70042D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Camo/Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.camotests-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		211228521C1394C70042D93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Camo/Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.camotests-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -450,7 +1084,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		211227F81C1390780042D93A /* Build configuration list for PBXNativeTarget "Camo" */ = {
+		211227F81C1390780042D93A /* Build configuration list for PBXNativeTarget "Camo-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				211227F91C1390780042D93A /* Debug */,
@@ -459,7 +1093,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		211227FB1C1390780042D93A /* Build configuration list for PBXNativeTarget "CamoTests" */ = {
+		211227FB1C1390780042D93A /* Build configuration list for PBXNativeTarget "CamoTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				211227FC1C1390780042D93A /* Debug */,
@@ -467,6 +1101,46 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		211228181C13944B0042D93A /* Build configuration list for PBXNativeTarget "Camo-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211228191C13944B0042D93A /* Debug */,
+				2112281A1C13944B0042D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		211228311C13946F0042D93A /* Build configuration list for PBXNativeTarget "Camo-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211228321C13946F0042D93A /* Debug */,
+				211228331C13946F0042D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		211228341C13946F0042D93A /* Build configuration list for PBXNativeTarget "CamoTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211228351C13946F0042D93A /* Debug */,
+				211228361C13946F0042D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2112284D1C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2112284E1C1394C70042D93A /* Debug */,
+				2112284F1C1394C70042D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		211228501C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211228511C1394C70042D93A /* Debug */,
+				211228521C1394C70042D93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
