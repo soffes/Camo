@@ -14,6 +14,7 @@ Camo depends on [Crypto](https://github.com/soffes/Crypto). Released under the M
 
 ``` ruby
 github "soffes/Camo"
+```
 
 
 ## Usage
