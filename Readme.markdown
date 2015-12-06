@@ -10,7 +10,7 @@ Camo depends on [Crypto](https://github.com/soffes/Crypto). Released under the M
 
 ## Installation
 
-[Carthage](https://github.com/carthage/carthage) is the recommended way to install Crypto. Add the following to your Cartfile:
+[Carthage](https://github.com/carthage/carthage) is the recommended way to install Camo. Add the following to your Cartfile:
 
 ``` ruby
 github "soffes/Camo"
