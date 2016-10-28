@@ -1,6 +1,8 @@
 # Camo
 
-[![Version](https://img.shields.io/github/release/soffes/Camo.svg)](https://github.com/soffes/Camo/releases) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Version](https://img.shields.io/github/release/soffes/Camo.svg)](https://github.com/soffes/Camo/releases)
+![Swift Version](https://img.shields.io/badge/swift-3.0.1-orange.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Swift client for [Camo](https://github.com/atmos/camo).
 
