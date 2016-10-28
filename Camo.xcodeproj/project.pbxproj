@@ -128,7 +128,7 @@
 		211228201C13946F0042D93A /* Camo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211228291C13946F0042D93A /* CamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2112283C1C1394C70042D93A /* Camo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		211228451C1394C70042D93A /* Camo-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camo-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211228451C1394C70042D93A /* CamoTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CamoTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2112285A1C1394FE0042D93A /* CamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamoTests.swift; sourceTree = "<group>"; };
 		2112285B1C1394FE0042D93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211228601C1395300042D93A /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 				211228201C13946F0042D93A /* Camo.framework */,
 				211228291C13946F0042D93A /* CamoTests.xctest */,
 				2112283C1C1394C70042D93A /* Camo.framework */,
-				211228451C1394C70042D93A /* Camo-OSXTests.xctest */,
+				211228451C1394C70042D93A /* CamoTests-macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -443,9 +443,9 @@
 			productReference = 211228291C13946F0042D93A /* CamoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2112283B1C1394C70042D93A /* Camo-OSX */ = {
+		2112283B1C1394C70042D93A /* Camo-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2112284D1C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSX" */;
+			buildConfigurationList = 2112284D1C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-macOS" */;
 			buildPhases = (
 				211228371C1394C70042D93A /* Sources */,
 				211228381C1394C70042D93A /* Frameworks */,
@@ -457,14 +457,14 @@
 			);
 			dependencies = (
 			);
-			name = "Camo-OSX";
+			name = "Camo-macOS";
 			productName = "Camo-OSX";
 			productReference = 2112283C1C1394C70042D93A /* Camo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		211228441C1394C70042D93A /* Camo-OSXTests */ = {
+		211228441C1394C70042D93A /* CamoTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 211228501C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSXTests" */;
+			buildConfigurationList = 211228501C1394C70042D93A /* Build configuration list for PBXNativeTarget "CamoTests-macOS" */;
 			buildPhases = (
 				211228411C1394C70042D93A /* Sources */,
 				211228421C1394C70042D93A /* Frameworks */,
@@ -476,9 +476,9 @@
 			dependencies = (
 				211228481C1394C70042D93A /* PBXTargetDependency */,
 			);
-			name = "Camo-OSXTests";
+			name = "CamoTests-macOS";
 			productName = "Camo-OSXTests";
-			productReference = 211228451C1394C70042D93A /* Camo-OSXTests.xctest */;
+			productReference = 211228451C1394C70042D93A /* CamoTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -533,8 +533,8 @@
 				211228121C13944A0042D93A /* Camo-watchOS */,
 				2112281F1C13946F0042D93A /* Camo-tvOS */,
 				211228281C13946F0042D93A /* CamoTests-tvOS */,
-				2112283B1C1394C70042D93A /* Camo-OSX */,
-				211228441C1394C70042D93A /* Camo-OSXTests */,
+				2112283B1C1394C70042D93A /* Camo-macOS */,
+				211228441C1394C70042D93A /* CamoTests-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -714,7 +714,7 @@
 		};
 		211228481C1394C70042D93A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2112283B1C1394C70042D93A /* Camo-OSX */;
+			target = 2112283B1C1394C70042D93A /* Camo-macOS */;
 			targetProxy = 211228471C1394C70042D93A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1150,7 +1150,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2112284D1C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSX" */ = {
+		2112284D1C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2112284E1C1394C70042D93A /* Debug */,
@@ -1159,7 +1159,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		211228501C1394C70042D93A /* Build configuration list for PBXNativeTarget "Camo-OSXTests" */ = {
+		211228501C1394C70042D93A /* Build configuration list for PBXNativeTarget "CamoTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				211228511C1394C70042D93A /* Debug */,
